@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#CCCCFF"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/xingji_flag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/settime_style"
+                android:gravity="center"
+                android:text="@string/xingji_flag"
+                android:textColor="#999999"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/xingji_settime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/settime_style"
+                android:gravity="center"
+                android:text="@string/xingji_settime"
+                android:textColor="#999999"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/xingji_setflag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/settime_style"
+                android:gravity="center"
+                android:text="@string/xingji_setflag"
+                android:textColor="#999999"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/xingjilist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/addrecord1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/addxz2" />
+
+</RelativeLayout>
